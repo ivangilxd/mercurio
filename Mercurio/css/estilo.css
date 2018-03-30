@@ -1,0 +1,68 @@
+.im { 
+	min-height: 100%;
+            min-width: 100%;
+            
+            /* Establecer la escala proporcional */
+            height: 120%;
+            
+            /* Establecer posicion */
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+}
+.transparente
+{
+	background: rgba(76,76,76,1);
+background: -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(71,71,71,0.98) 14%, rgba(44,44,44,0.97) 29%, rgba(0,0,0,0.94) 51%, rgba(17,17,17,0.92) 73%, rgba(28,28,28,0.9) 91%, rgba(19,19,19,0.89) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(14%, rgba(71,71,71,0.98)), color-stop(29%, rgba(44,44,44,0.97)), color-stop(51%, rgba(0,0,0,0.94)), color-stop(73%, rgba(17,17,17,0.92)), color-stop(91%, rgba(28,28,28,0.9)), color-stop(100%, rgba(19,19,19,0.89)));
+background: -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(71,71,71,0.98) 14%, rgba(44,44,44,0.97) 29%, rgba(0,0,0,0.94) 51%, rgba(17,17,17,0.92) 73%, rgba(28,28,28,0.9) 91%, rgba(19,19,19,0.89) 100%);
+background: -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(71,71,71,0.98) 14%, rgba(44,44,44,0.97) 29%, rgba(0,0,0,0.94) 51%, rgba(17,17,17,0.92) 73%, rgba(28,28,28,0.9) 91%, rgba(19,19,19,0.89) 100%);
+background: -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(71,71,71,0.98) 14%, rgba(44,44,44,0.97) 29%, rgba(0,0,0,0.94) 51%, rgba(17,17,17,0.92) 73%, rgba(28,28,28,0.9) 91%, rgba(19,19,19,0.89) 100%);
+background: linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(71,71,71,0.98) 14%, rgba(44,44,44,0.97) 29%, rgba(0,0,0,0.94) 51%, rgba(17,17,17,0.92) 73%, rgba(28,28,28,0.9) 91%, rgba(19,19,19,0.89) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.white
+{
+	color: rgba(255,255,255,1);
+}
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+graph and Heading Styles
+
+/* Paragraph for Parallax Section */ 
+.paral p {
+font-size: 24px;
+color:#fff;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */ 
+.paral h1 {
+color: rgba(255, 255, 255, 1);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+/* Paragraph for Parallax Section */ 
+.paral p {
+font-size: 24px;
+color:#fff;
+text-align: center;
+line-height: 60px;
+}
+ 
+/* Heading for Parallax Section */ 
+.paral h1 {
+color: rgba(255, 255, 255, 1);
+font-size: 60px;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
